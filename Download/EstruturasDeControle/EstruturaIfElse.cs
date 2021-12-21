@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace CursoCSharp.EstruturasDeControle
+{
+    class EstruturaIfElse
+    {
+        public static void Executar()
+        {
+            double nota = 7.0;
+
+            if(nota >= 7.00)
+            {
+                Console.WriteLine("Aprovado!");
+                Console.WriteLine("Você não fez mais do que sua obrigação...");
+            }
+            else
+            {
+                Console.WriteLine("Recuperação");
+            }
+        }
+    }
+}
